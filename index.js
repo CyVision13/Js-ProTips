@@ -11,7 +11,17 @@ const turtle = {
     diet:'berries'
 }
 
+const horse = {
+    name:'mamad kabiri',
+    age: 21
+}
+function horseAge(str,age){
+    const ageStr = age > 5 ? 'old' : 'young';
+    return `${str[0]}${ageStr} at ${age} years`
+}
+const bio2 = horseAge`This horse is ${horse.age}`
 
+console.log(bio2);
 
 // *** Bad Code *** //
 
