@@ -14,6 +14,7 @@ const turtle = {
 const horse = {
     name:'mamad kabiri',
     age: 21
+    
 }
 function horseAge(str,age){
     const ageStr = age > 5 ? 'old' : 'young';
